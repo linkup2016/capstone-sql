@@ -1,5 +1,10 @@
-SELECT accountName,transactionDate,beginningBalance,endingBalance,debit,credit
-FROM chartOfAccounts cof
-right join acct_transaction at
-on	cof.accountID = at.accountID
-where at.accountID = 10;
+SELECT	accountName,
+	transactionDate,
+	beginningBalance,
+	endingBalance,
+	debit,
+	credit
+FROM chartOfAccounts cofa
+RIGHT JOIN acct_transaction acct_t
+ON	cofa.accountID = acct_t.accountID
+WHERE acct_t.accountID = 10;
