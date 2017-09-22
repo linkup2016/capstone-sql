@@ -1,2 +1,1 @@
 # capstone-sql
-# capstone-sql
