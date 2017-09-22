@@ -2,6 +2,8 @@
 -- Jason Parker 
 
 select * from general_ledger;
+select * from acct_receivable;
+select * from acct_payable;
 
 SELECT	transactionDate,
 		accountName,
