@@ -88,3 +88,4 @@ create table acct_transaction(
 	PRIMARY KEY (transactionID),
     foreign key (accountID) references chartOfAccounts(accountID)
 );
+
